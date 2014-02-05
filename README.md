@@ -1,11 +1,11 @@
 # PyCharm
 
-[![Build Status](https://travis-ci.org/boxen/puppet-pycharm.png?branch=master)](https://travis-ci.org/boxen/puppet-pycharm)
+[![Build Status](https://travis-ci.org/sic/puppet-pycharmce.png?branch=master)](https://travis-ci.org/sic/puppet-pycharmce)
 
 ## Usage
 
 ```puppet
-include pycharm
+include pycharmce
 ```
 
 ## Required Puppet Modules
