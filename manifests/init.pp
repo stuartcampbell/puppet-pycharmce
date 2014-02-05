@@ -1,14 +1,13 @@
-# Public: Installs PyCharm
+# Public: Installs PyCharm CE
 #
 # Usage:
 #
-#   include pycharm
-class pycharm {
+#   include pycharmce
+class pycharmce {
   $version = '3.1'
-  $edition = 'community'
 
   package { 'PyCharm':
     provider => 'appdmg',
-    source   => "http://download.jetbrains.com/python/pycharm-${edition}-${version}.dmg"
+    source   => "http://download.jetbrains.com/python/pycharm-community-${version}.dmg"
   }
 }
